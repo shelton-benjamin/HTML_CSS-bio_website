@@ -1,0 +1,122 @@
+body {
+	background: midnightblue;
+}
+
+#container {
+	width: 700px;
+	background-color: snow;
+	margin: auto;
+	position: relative;
+	height: 1300px;
+}
+
+header {
+	text-align: center;
+	padding-top: 15px;
+	height: 100px;
+}
+
+nav {
+	height: 20px;
+	border: 5px double black;
+	background-color: wheat;
+}
+
+nav ul {
+	list-style: none;
+	margin-top: 0px;
+}
+
+nav li {
+	float: left;
+	margin: 0px 20px;
+}
+
+nav a:link, nav a:visited{
+	color: black;
+}
+
+nav a:hover, #current{
+	text-decoration: none;
+	font-weight: bold;
+}
+
+section {
+	position: absolute;
+	width: 475px;
+	left: 10px;
+}
+
+section ul{
+	margin-top: -10px;
+}
+
+section ol{
+	list-style-position: inside;
+}
+
+aside {
+	position: absolute;
+	width: 200px;
+	height: 1145px;
+	right: 0px;
+	background: wheat;
+	border: 5px double black;
+}
+
+img {
+	height: 300px;
+	width: 300px;
+}
+
+h1 {
+	font-family: impact;
+	letter-spacing: 2px;
+	margin-bottom: -20px;
+}
+
+h2{
+	font-family: verdana;
+}
+
+* {
+	font-family: garamond;
+}
+
+#love {
+	height: 150px;
+	width: 180px;
+	margin: 10px 10px 0px 10px;
+}
+
+#love_caption{
+	margin-left: 10px;
+}
+
+#gundam {
+	margin-top: 25px;
+	height: 300px;
+	width: 400px;
+}
+
+.caption {
+	font-size: 85%;
+	margin-top: 5px;
+}
+
+.animal {
+	height: 300px;
+	width: 400px;
+}
+
+table {
+	border: 1px solid black;
+	padding: 5px 10px;
+	background-color: wheat;
+}
+
+td {
+	border: 1px solid black;
+	padding: 5px;
+}
+
